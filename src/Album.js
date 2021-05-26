@@ -8,6 +8,7 @@ import {
   NavLink,
   Switch
 } from "react-router-dom";
+import Music from "./Music";
 
 class Album extends Component {
   render() {
@@ -49,6 +50,27 @@ class Album extends Component {
             render={() => (
               <Tab.Pane>
               <Contact></Contact>
+              </Tab.Pane>
+            )}
+          />
+        )
+      },
+      {
+        menuItem: {
+          as: NavLink,
+          id: "music",
+          content: "MUSIC",
+          to: "/music",
+          exact: true,
+          key: "music"
+        },
+        pane: (
+          <Route
+            path="/music"
+            exact
+            render={() => (
+              <Tab.Pane>
+              <Music></Music>
               </Tab.Pane>
             )}
           />
