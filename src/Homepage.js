@@ -21,15 +21,15 @@ const Homepage = () => (
           <Grid.Column width={2}></Grid.Column>
 
           <Grid.Column width={6}>
-            <Iframe
-              url="https://bandcamp.com/EmbeddedPlayer/album=40784967/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
-              width="320px"
-              height="320px"
-              id="myId"
-              className="myClassname"
-              display="initial"
-              position="relative"
-            />
+          <Iframe
+            url="https://open.spotify.com/embed/album/1vuK4iUXKdWnwqmpIf7XIs"
+            width="320px"
+            height="320px"
+            id="myId"
+            className="myClassname"
+            display="initial"
+            position="relative"
+          />
           </Grid.Column>
         </Grid.Row>
       </Grid>
