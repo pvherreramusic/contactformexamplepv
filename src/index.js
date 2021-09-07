@@ -5,10 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css'
 import Footer from './Footer'
+import Watermark from "./Watermark"
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Footer></Footer>
+    <Watermark></Watermark>
   </React.StrictMode>,
   document.getElementById('root')
 );

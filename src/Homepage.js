@@ -6,7 +6,7 @@ import "./Homepage.css";
 const Homepage = () => (
   <div className="Home">
     <div className="lander">
-      <h1>Welcome to PV HERRERA Music</h1>
+      <h1>Welcome to PV HERRERA Music and Tech</h1>
 
       <Grid columns={2}>
         <Grid.Row>
